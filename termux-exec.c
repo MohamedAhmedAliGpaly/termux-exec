@@ -10,11 +10,11 @@
 #include <unistd.h>
 
 #ifndef TERMUX_BASE_DIR
-# define TERMUX_BASE_DIR "/data/data/com.termux/files"
+# define TERMUX_BASE_DIR "/data/data/com.lifehost/files"
 #endif
 
 #ifndef TERMUX_PREFIX
-# define TERMUX_PREFIX "/data/data/com.termux/files/usr"
+# define TERMUX_PREFIX "/data/data/com.lifehost/files/usr"
 #endif
 
 static const char* termux_rewrite_executable(const char* filename, char* buffer, int buffer_len)
