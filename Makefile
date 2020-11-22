@@ -1,5 +1,5 @@
-TERMUX_PREFIX := /data/data/com.termux/files/usr
-TERMUX_BASE_DIR := /data/data/com.termux/files
+TERMUX_PREFIX := /data/data/com.lifehost/files/usr
+TERMUX_BASE_DIR := /data/data/com.lifehost/files
 CFLAGS += -Wall -Wextra -Werror -Oz
 
 libtermux-exec.so: termux-exec.c
